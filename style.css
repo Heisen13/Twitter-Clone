@@ -1,7 +1,15 @@
-body {
-    background-color: black;
+input:focus{
+    outline: none;
+}
+   
+.left_side{
+    position: sticky;
+    top: 0px;
+    height: fit-content;
 }
 
-left {
-    border: 1px solid #14171A;
+.right_side{
+    position: fixed;
+    right: 30px;
+    top: 10px;
 }
