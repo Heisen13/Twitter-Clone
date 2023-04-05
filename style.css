@@ -1,15 +1,10 @@
-input:focus{
-    outline: none;
+.right{
+    position: fixed;
+    right: 20px;
+    top: 10px;
 }
-   
-.left_side{
+.left{
     position: sticky;
     top: 0px;
     height: fit-content;
-}
-
-.right_side{
-    position: fixed;
-    right: 30px;
-    top: 10px;
 }
